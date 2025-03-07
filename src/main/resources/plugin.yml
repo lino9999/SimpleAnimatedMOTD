@@ -1,0 +1,4 @@
+name: SimpleAnimatedMOTD
+version: '1.0'
+main: com.Lino.simpleAnimatedMOTD.SimpleAnimatedMOTD
+api-version: '1.21'
