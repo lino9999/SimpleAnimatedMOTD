@@ -19,10 +19,6 @@ center-text: false
 # Useful for showing custom messages to clients with unsupported versions
 max-protocol-version: -1
 
-# Custom version name to display
-# (requires ProtocolLib for full functionality)
-version-name: ""
-
 # List of MOTD frames
 # Use & for color codes
 # Supports Unicode characters and symbols
