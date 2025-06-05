@@ -1,5 +1,38 @@
+# SimpleAnimatedMOTD - Configuration
+# Plugin to animate the server MOTD with customizable frames
+
+# Enable or disable MOTD animation
+enabled: true
+
+# Frame selection mode
+# false = sequential (in order)
+# true = random (on each ping)
+random-mode: false
+
+# Frame change interval in ticks (20 ticks = 1 second)
+change-interval: 20
+
+# Automatically center text in MOTD
+center-text: false
+
+# Maximum supported protocol version (-1 to disable)
+# Useful for showing custom messages to clients with unsupported versions
+max-protocol-version: -1
+
+# Custom version name to display
+# (requires ProtocolLib for full functionality)
+version-name: ""
+
+# List of MOTD frames
+# Use & for color codes
+# Supports Unicode characters and symbols
+# You can use \n for line breaks
 motd-frames:
-  - "&a==== &fAwesome Server &a====\n&bNew events weekly!"
-  - "&a==== &fAwesome Server &a====\n&6Join our Discord!"
-  - "&a==== &fAwesome Server &a====\n&eHappy Holidays from ServerName!"
-  - "&a==== &fAwesome Server &a====\n&dNew Update release!"
+  - "&a==== &f&lAwesome Server &a====\n&7&oJoin the adventure!"
+  - "&b==== &f&lAwesome Server &b====\n&e⭐ &6Weekly events! &e⭐"
+  - "&d==== &f&lAwesome Server &d====\n&5✨ &dNew updates! &5✨"
+  - "&6==== &f&lAwesome Server &6====\n&c♥ &fFriendly community! &c♥"
+  - "&3==== &f&lAwesome Server &3====\n&b🎮 &3Unique minigames! &b🎮"
+  - "&c==== &f&lAwesome Server &c====\n&4⚔ &cEpic PvP! &4⚔"
+  - "&e==== &f&lAwesome Server &e====\n&6🏆 &eMonthly leaderboards! &6🏆"
+  - "&5==== &f&lAwesome Server &5====\n&d🎉 &5Exclusive shop! &d🎉"

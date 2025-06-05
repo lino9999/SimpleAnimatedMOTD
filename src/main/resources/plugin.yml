@@ -2,3 +2,23 @@ name: SimpleAnimatedMOTD
 version: '1.0'
 main: com.Lino.simpleAnimatedMOTD.SimpleAnimatedMOTD
 api-version: '1.21'
+website: https://github.com/Lino/SimpleAnimatedMOTD
+
+commands:
+  animatedmotd:
+    description: Main command to manage SimpleAnimatedMOTD
+    usage: /<command> [reload|toggle|list|test|info]
+    aliases: [amotd, motd]
+    permission: animatedmotd.admin
+    permission-message: "&cYou do not have permission to use this command!"
+
+permissions:
+  animatedmotd.admin:
+    description: Permission to administer the plugin
+    default: op
+
+  animatedmotd.*:
+    description: All plugin permissions
+    default: op
+    children:
+      animatedmotd.admin: true
