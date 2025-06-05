@@ -15,10 +15,6 @@ change-interval: 20
 # Automatically center text in MOTD
 center-text: false
 
-# Maximum supported protocol version (-1 to disable)
-# Useful for showing custom messages to clients with unsupported versions
-max-protocol-version: -1
-
 # List of MOTD frames
 # Use & for color codes
 # Supports Unicode characters and symbols
