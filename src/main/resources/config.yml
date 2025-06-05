@@ -13,7 +13,7 @@ random-mode: false
 change-interval: 20
 
 # Automatically center text in MOTD
-center-text: false
+center-text: true
 
 # List of MOTD frames
 # Use & for color codes
